@@ -3,7 +3,7 @@
 $host = 'localhost';
 $name = 'ecom';
 $user = 'root';
-$password = 'trysomething';
+$password = '';
 
 try {
 	$pdo = new PDO("mysql:host=$host;dbname=$name", $user, $password);
